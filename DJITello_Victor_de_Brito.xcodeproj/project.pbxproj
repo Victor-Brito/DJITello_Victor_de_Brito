@@ -17,7 +17,7 @@
 		CDE6A4832826E2EA000F91F4 /* TelloService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A4822826E2EA000F91F4 /* TelloService.swift */; };
 		CDE6A4872826E53B000F91F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A4862826E53B000F91F4 /* AppDelegate.swift */; };
 		CDE6A48C2826EC05000F91F4 /* TelloAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A48B2826EC05000F91F4 /* TelloAddress.swift */; };
-		CDE6A48E2826EF4F000F91F4 /* TelloComands.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A48D2826EF4F000F91F4 /* TelloComands.swift */; };
+		CDE6A4902826EFB0000F91F4 /* TelloComands.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A48F2826EFB0000F91F4 /* TelloComands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		CDE6A4862826E53B000F91F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE6A48A2826E8F8000F91F4 /* DJITello_Victor_de_Brito.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DJITello_Victor_de_Brito.entitlements; sourceTree = "<group>"; };
 		CDE6A48B2826EC05000F91F4 /* TelloAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelloAddress.swift; sourceTree = "<group>"; };
-		CDE6A48D2826EF4F000F91F4 /* TelloComands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelloComands.swift; sourceTree = "<group>"; };
+		CDE6A48F2826EFB0000F91F4 /* TelloComands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelloComands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				CDE6A4822826E2EA000F91F4 /* TelloService.swift */,
-				CDE6A48D2826EF4F000F91F4 /* TelloComands.swift */,
 				CDE6A4862826E53B000F91F4 /* AppDelegate.swift */,
+				CDE6A48F2826EFB0000F91F4 /* TelloComands.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 			files = (
 				CDE6A4832826E2EA000F91F4 /* TelloService.swift in Sources */,
 				CDE6A4572826D657000F91F4 /* ContentView.swift in Sources */,
-				CDE6A48E2826EF4F000F91F4 /* TelloComands.swift in Sources */,
+				CDE6A4902826EFB0000F91F4 /* TelloComands.swift in Sources */,
 				CDE6A48C2826EC05000F91F4 /* TelloAddress.swift in Sources */,
 				CDE6A4872826E53B000F91F4 /* AppDelegate.swift in Sources */,
 				CDE6A4552826D657000F91F4 /* DJITello_Victor_de_BritoApp.swift in Sources */,
