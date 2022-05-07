@@ -94,8 +94,10 @@
 		CDE6A4532826D657000F91F4 /* DJITello_Victor_de_Brito */ = {
 			isa = PBXGroup;
 			children = (
-				CDE6A4542826D657000F91F4 /* DJITello_Victor_de_BritoApp.swift */,
-				CDE6A4562826D657000F91F4 /* ContentView.swift */,
+				CDE6A47E2826E208000F91F4 /* View */,
+				CDE6A47F2826E20F000F91F4 /* Model */,
+				CDE6A4802826E218000F91F4 /* ViewModel */,
+				CDE6A4812826E228000F91F4 /* App */,
 				CDE6A4582826D659000F91F4 /* Assets.xcassets */,
 				CDE6A45A2826D659000F91F4 /* Preview Content */,
 			);
@@ -125,6 +127,36 @@
 				CDE6A4712826D659000F91F4 /* DJITello_Victor_de_BritoUITestsLaunchTests.swift */,
 			);
 			path = DJITello_Victor_de_BritoUITests;
+			sourceTree = "<group>";
+		};
+		CDE6A47E2826E208000F91F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDE6A4562826D657000F91F4 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDE6A47F2826E20F000F91F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDE6A4802826E218000F91F4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDE6A4812826E228000F91F4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CDE6A4542826D657000F91F4 /* DJITello_Victor_de_BritoApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
