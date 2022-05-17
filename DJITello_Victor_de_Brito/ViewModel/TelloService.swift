@@ -11,12 +11,12 @@ import Network
 class UdpSender: ObservableObject {
     
     var data: TelloAddress
-    
     var connection: NWConnection?
     
     init(data: TelloAddress) {
         self.data = data
     }
+    
     
     func send(_ payload: Data) {
         guard let connection = self.connection else { return }

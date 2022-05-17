@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct TelloApp: App {
     
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @UIApplicationDelegateAdaptor(TelloDelegate.self) var appDelegate
     @Environment(\.scenePhase) private var scenePhase
     
     var body: some Scene {

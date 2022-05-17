@@ -43,27 +43,6 @@ struct ContentView: View {
             Button("Rotate 360° counterclockwise") {
                 commands.rotate360CcwPressed()
             }
-
-//            Form {
-//                Section {
-//                    Button("Takeoff") {
-//                        commands.takeoffPressed()
-//                    }
-//                    Button("Land") {
-//                        commands.landPressed()
-//
-//                    }
-//                }
-//                Section {
-//                    Button("Rotate 360° clockwise") {
-//                        commands.rotate360CwPressed()
-//                    }
-//                    Button("Rotate 360° counterclockwise") {
-//                        commands.rotate360CcwPressed()
-//                    }
-//
-//                }
-//            }
         }
     }
 }

@@ -8,10 +8,10 @@
 import Combine
 import SwiftUI
 
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class TelloDelegate: UIResponder, UIApplicationDelegate {
     
     var interactionReceiver = TelloComands()
-    var commandSender = UdpSender(data: TelloAddress(host: "192.168.10.1", port: 8889))
+    var commandSender = UdpSender(data: TelloAddress(host: "192.168.10.1", port: 8889))    
     
     var cancellables = [AnyCancellable]()
     
