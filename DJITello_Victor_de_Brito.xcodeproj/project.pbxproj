@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD88CD9F28332C3500F131A5 /* FirstChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88CD9E28332C3500F131A5 /* FirstChallenge.swift */; };
+		CD88CDA22833329F00F131A5 /* BackGrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88CDA12833329F00F131A5 /* BackGrounds.swift */; };
+		CD88CDA52833334A00F131A5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88CDA42833334A00F131A5 /* Constants.swift */; };
+		CDE1DA2F283339F8007D1B72 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1DA2E283339F8007D1B72 /* Buttons.swift */; };
+		CDE1DA332833E3C1007D1B72 /* SelectorNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1DA322833E3C1007D1B72 /* SelectorNodes.swift */; };
+		CDE1DA35283409BF007D1B72 /* DroneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1DA34283409BF007D1B72 /* DroneNode.swift */; };
+		CDE1DA3728340A09007D1B72 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1DA3628340A09007D1B72 /* Icons.swift */; };
+		CDE1DA39283430A1007D1B72 /* Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1DA38283430A0007D1B72 /* Modals.swift */; };
 		CDE6A4552826D657000F91F4 /* DJITello_Victor_de_BritoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A4542826D657000F91F4 /* DJITello_Victor_de_BritoApp.swift */; };
 		CDE6A4572826D657000F91F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A4562826D657000F91F4 /* ContentView.swift */; };
 		CDE6A4592826D659000F91F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE6A4582826D659000F91F4 /* Assets.xcassets */; };
@@ -38,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD88CD9E28332C3500F131A5 /* FirstChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstChallenge.swift; sourceTree = "<group>"; };
+		CD88CDA12833329F00F131A5 /* BackGrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGrounds.swift; sourceTree = "<group>"; };
+		CD88CDA42833334A00F131A5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CDE1DA2E283339F8007D1B72 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		CDE1DA322833E3C1007D1B72 /* SelectorNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorNodes.swift; sourceTree = "<group>"; };
+		CDE1DA34283409BF007D1B72 /* DroneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneNode.swift; sourceTree = "<group>"; };
+		CDE1DA3628340A09007D1B72 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		CDE1DA38283430A0007D1B72 /* Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modals.swift; sourceTree = "<group>"; };
 		CDE6A4512826D657000F91F4 /* DJITello_Victor_de_Brito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJITello_Victor_de_Brito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6A4542826D657000F91F4 /* DJITello_Victor_de_BritoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJITello_Victor_de_BritoApp.swift; sourceTree = "<group>"; };
 		CDE6A4562826D657000F91F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +96,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD88CD9D28332B9D00F131A5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CD88CD9E28332C3500F131A5 /* FirstChallenge.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CD88CDA02833326300F131A5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CD88CDA12833329F00F131A5 /* BackGrounds.swift */,
+				CDE1DA2E283339F8007D1B72 /* Buttons.swift */,
+				CDE1DA3628340A09007D1B72 /* Icons.swift */,
+				CDE1DA322833E3C1007D1B72 /* SelectorNodes.swift */,
+				CDE1DA38283430A0007D1B72 /* Modals.swift */,
+				CDE1DA34283409BF007D1B72 /* DroneNode.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CD88CDA32833331C00F131A5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CD88CDA42833334A00F131A5 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		CDE6A4482826D657000F91F4 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +152,7 @@
 				CDE6A47E2826E208000F91F4 /* View */,
 				CDE6A47F2826E20F000F91F4 /* Model */,
 				CDE6A4802826E218000F91F4 /* ViewModel */,
+				CD88CDA32833331C00F131A5 /* Common */,
 				CDE6A4812826E228000F91F4 /* App */,
 				CDE6A4582826D659000F91F4 /* Assets.xcassets */,
 				CDE6A45A2826D659000F91F4 /* Preview Content */,
@@ -143,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				CDE6A4562826D657000F91F4 /* ContentView.swift */,
+				CD88CD9D28332B9D00F131A5 /* Scenes */,
+				CD88CDA02833326300F131A5 /* Shared */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,12 +351,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE1DA3728340A09007D1B72 /* Icons.swift in Sources */,
+				CDE1DA35283409BF007D1B72 /* DroneNode.swift in Sources */,
 				CDE6A4832826E2EA000F91F4 /* TelloService.swift in Sources */,
+				CDE1DA332833E3C1007D1B72 /* SelectorNodes.swift in Sources */,
 				CDE6A4572826D657000F91F4 /* ContentView.swift in Sources */,
 				CDE6A4902826EFB0000F91F4 /* TelloComands.swift in Sources */,
 				CDE6A48C2826EC05000F91F4 /* TelloAddress.swift in Sources */,
 				CDE6A4872826E53B000F91F4 /* TelloDelegate.swift in Sources */,
+				CDE1DA2F283339F8007D1B72 /* Buttons.swift in Sources */,
+				CDE1DA39283430A1007D1B72 /* Modals.swift in Sources */,
+				CD88CD9F28332C3500F131A5 /* FirstChallenge.swift in Sources */,
 				CDE6A4552826D657000F91F4 /* DJITello_Victor_de_BritoApp.swift in Sources */,
+				CD88CDA22833329F00F131A5 /* BackGrounds.swift in Sources */,
+				CD88CDA52833334A00F131A5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +530,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -504,7 +560,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
